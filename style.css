@@ -1,25 +1,36 @@
 
 body{
     border: 3px solid;
-    width: 640px;
+    width: 642px;
     height: 291px;
+    border-radius: 6px;
 }
 
 #textBox{
-    margin: 3px;
+    margin: 5px;
     margin-left: 120px;
     width: 350px;
     height: 20px;
 }
 
 .KeyBoard {
-    margin-top: 10px;
+    margin-top: 5px;
     background-image: url(background.jpg);
-    width: 640px;
+    width: 642px;
     height: 250px;
     text-align: center;
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#escape, #tab, #enter, #shift, #space{
+    border-radius: 6px;
+    border: 2px solid;
+}
+
+.numbers_first_line, .liters_second_line, .liters_third_line, .liters_fourth_line{
+    border-radius: 6px;
+    border: 2px solid;
 }
 
 .first_line {
@@ -32,13 +43,11 @@ body{
 #escape {
     padding: 10px;
     width: 60px;
-    border: 3px solid;
 }
 
 .numbers_first_line {   
     padding: 10px;
     width: 600px;
-    border: 3px solid;
     margin-left: 1px;
 }
 
@@ -52,13 +61,11 @@ body{
 #tab{
     padding: 10px;
     width: 50px;
-    border: 3px solid;
 }
 
 .liters_second_line {
     padding: 10px;
     width: 600px;
-    border: 3px solid;
     margin-left: 1px;
 }
 
@@ -72,14 +79,12 @@ body{
 .liters_third_line {
     padding: 10px;
     width: 600px;
-    border: 3px solid;
     margin-left: 1px;
 }
 
 #enter{
     padding: 10px;
     width: 70px;
-    border: 3px solid;
 }
 
 .fourth_line {
@@ -92,13 +97,11 @@ body{
 #shift{
     padding: 10px;
     width: 60px;
-    border: 3px solid;
 }
 
 .liters_fourth_line {
     padding: 10px;
     width: 600px;
-    border: 3px solid;
     margin-left: 1px;
 }
 
@@ -108,5 +111,4 @@ body{
     margin-left: 120px;
     width: 350px;
     height: 29px;
-    border: 3px solid;
 }
