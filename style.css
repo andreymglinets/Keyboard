@@ -1,5 +1,12 @@
 
+body{
+    border: 3px solid;
+    width: 640px;
+    height: 291px;
+}
+
 #textBox{
+    margin: 3px;
     margin-left: 120px;
     width: 350px;
     height: 20px;
@@ -16,6 +23,7 @@
 }
 
 .first_line {
+    margin: 1px;
     display: flex;
     width: 640px;
     height: 50px;
@@ -35,6 +43,7 @@
 }
 
 .second_line {
+    margin: 1px;
     display: flex;
     width: 640px;
     height: 50px;
@@ -54,7 +63,8 @@
 }
 
 .third_line {
-     display: flex;
+    margin: 1px;
+    display: flex;
     width: 640px;
     height: 50px;
 }
@@ -73,6 +83,7 @@
 }
 
 .fourth_line {
+    margin: 1px;
     display: flex;
     width: 640px;
     height: 50px;
@@ -92,9 +103,10 @@
 }
 
 #space{
-    padding: 10px;
+    margin: 1px;
+    padding: 5px;
     margin-left: 120px;
     width: 350px;
-    height: 25px;
+    height: 29px;
     border: 3px solid;
 }
