@@ -8,13 +8,13 @@ body{
 
 #textBox{
     margin: 5px;
-    margin-left: 120px;
-    width: 350px;
-    height: 20px;
+    margin-left: 60px;
+    width: 500px;
+    height: 25px;
+    border: 2px solid;
 }
 
 .KeyBoard {
-    margin-top: 5px;
     background-image: url(background.jpg);
     width: 642px;
     height: 250px;
@@ -78,13 +78,13 @@ body{
 
 .liters_third_line {
     padding: 10px;
-    width: 600px;
-    margin-left: 1px;
+    width: 590px;
+    margin-right: 1px;
 }
 
 #enter{
     padding: 10px;
-    width: 70px;
+    width: 50px;
 }
 
 .fourth_line {
