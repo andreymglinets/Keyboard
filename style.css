@@ -1,0 +1,90 @@
+
+#textBox{
+    margin-left: 120px;
+    width: 350px;
+    height: 20px;
+}
+
+.KeyBoard {
+    margin-top: 10px;
+    background-image: url(background.jpg);
+    width: 640px;
+    height: 250px;
+    text-align: center;
+}
+
+
+.first_line {
+    display: flex;
+    width: 640px;
+    height: 50px;
+}
+
+#escape {
+    width: 40px;
+    border: 3px solid;
+}
+
+.numbers_first_line {
+    width: 600px;
+    border: 3px solid;
+    margin-left: 1px;
+}
+
+.second_line {
+    display: flex;
+    width: 640px;
+    height: 50px;
+}
+
+#tab{
+    width: 40px;
+    border: 3px solid;
+}
+
+.liters_second_line {
+    width: 600px;
+    border: 3px solid;
+    margin-left: 1px;
+}
+
+.third_line {
+    display: flex;
+    width: 640px;
+    height: 50px;
+}
+
+.liters_third_line {
+    width: 600px;
+    border: 3px solid;
+    margin-left: 1px;
+}
+
+#enter{
+    width: 40px;
+    border: 3px solid;
+}
+
+.fourth_line {
+    display: flex;
+    width: 640px;
+    height: 50px;
+}
+
+#shift{
+    width: 40px;
+    border: 3px solid;
+}
+
+.liters_fourth_line {
+    width: 600px;
+    border: 3px solid;
+    margin-left: 1px;
+}
+
+#space{
+    margin-left: 120px;
+    width: 350px;
+    height: 45px;
+    border: 3px solid;
+}
