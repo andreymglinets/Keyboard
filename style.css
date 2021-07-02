@@ -12,7 +12,7 @@ body{
 #textBox{
 
     width: 650px;
-    height: 30px;
+    height: 33px;
     border: 2px solid;
     border-color: #20B2AA;
 }
@@ -23,8 +23,7 @@ body{
 }
 
 .KeyBoard {
-    /*background-image: url(background.jpg);*/
-    padding-top: 2px;
+    padding-top: 1px;
     background-color: #20B2AA;
     width: 645x;
     height: 253px;
@@ -33,10 +32,7 @@ body{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-
-
- #tab, #enter, #shift, #space {
+ #tab, #enter, #shift, #space, #backspace {
     background-color: #008B8B;
     border-radius: 6px;
     opacity: .8;
@@ -57,12 +53,13 @@ body{
     display: flex;
     width: 643px;
     height: 50px;
+    margin-left: 3px;
 }
 
 .numbers_first_line {   
     padding: 10px;
     width: 660px;
-    margin-left: 3px;
+    margin-right: 3px;
 }
 
 .second_line {
@@ -101,6 +98,11 @@ body{
 }
 
 #enter{
+    padding: 10px;
+    width: 70px;
+}
+
+#backspace{
     padding: 10px;
     width: 70px;
 }
