@@ -1,0 +1,142 @@
+* {
+    -webkit-box-sizing: border-box;
+}
+
+
+body{
+    margin-left: 30px;
+    width: 650px;
+    height: 295px;
+}
+
+#textBox{
+
+    width: 650px;
+    height: 30px;
+    border: 2px solid;
+    border-color: #20B2AA;
+}
+
+#textBox:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.KeyBoard {
+    /*background-image: url(background.jpg);*/
+    padding-top: 2px;
+    background-color: #20B2AA;
+    width: 645x;
+    height: 253px;
+    text-align: center;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+ #tab, #enter, #shift, #space {
+    background-color: #008B8B;
+    border-radius: 6px;
+    opacity: .8;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px #444;
+}
+
+.numbers_first_line, .liters_second_line, .liters_third_line, .liters_fourth_line {
+    background-color: #008B8B;
+    border-radius: 6px;
+    opacity: .8;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px #444;
+}
+
+.first_line {
+    margin: 1px;
+    display: flex;
+    width: 643px;
+    height: 50px;
+}
+
+.numbers_first_line {   
+    padding: 10px;
+    width: 660px;
+    margin-left: 3px;
+}
+
+.second_line {
+    margin: 1px;
+    display: flex;
+    width: 643px;
+    height: 50px;
+}
+
+#tab{
+    margin-left: 3px;
+    padding: 10px;
+    width: 50px;
+}
+
+
+
+.liters_second_line {
+    padding: 10px;
+    width: 600px;
+    margin-left: 3px;
+}
+
+.third_line {
+    margin: 1px;
+    display: flex;
+    width: 640px;
+    height: 50px;
+    margin-left: 4px;
+}
+
+.liters_third_line {
+    padding: 10px;
+    width: 590px;
+    margin-right: 3px;
+}
+
+#enter{
+    padding: 10px;
+    width: 70px;
+}
+
+.fourth_line {
+    margin: 1px;
+    display: flex;
+    width: 643px;
+    height: 50px;
+}
+
+#shift{
+    margin-left: 3px;
+    padding: 10px;
+    width: 60px;
+}
+
+.liters_fourth_line {
+    padding: 10px;
+    width: 600px;
+    margin-left: 3px;
+}
+
+#space{
+    margin: 3px;
+    padding: 5px;
+    margin-left: 120px;
+    width: 350px;
+    height: 40px;
+}
+
+.numbers_first_line:active, .liters_second_line:active, .liters_third_line:active, .liters_fourth_line:active, #tab:active, #shift:active, #space:active, #enter:active{
+    background-color: #008B8B;
+    opacity: .6;
+}
+
+#textBox:focus {
+    border-color: #20B2AA;
+}
