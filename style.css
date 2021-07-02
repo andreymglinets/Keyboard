@@ -136,7 +136,7 @@ body{
     height: 40px;
 }
 
-.numbers_first_line:active, .liters_second_line:active, .liters_third_line:active, .liters_fourth_line:active, #tab:active, #shift:active, #space:active, #enter:active{
+.numbers_first_line:active, .liters_second_line:active, .liters_third_line:active, .liters_fourth_line:active, #tab:active, #shift:active, #space:active, #enter:active, #backspace:active{
     background-color: #008B8B;
     opacity: .6;
 }
